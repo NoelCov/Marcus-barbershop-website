@@ -6,6 +6,7 @@ export const GalleryPreviewContainer = styled.div`
   gap: 50px;
   padding: 10vh 5vw 0;
   justify-items: center;
+  position: relative;
 `;
 
 export const ImageContainer = styled.img`

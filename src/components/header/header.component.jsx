@@ -5,10 +5,10 @@ import {
   HeaderTitle,
   HeaderTitleText,
   LogoContainer,
-  StyledButton,
-  StyledButton2,
   ButtonsContainer,
 } from "./header.styles";
+
+import CustomButton from "../custom-button/custom-button.component";
 
 const Header = () => {
   return (
@@ -17,8 +17,20 @@ const Header = () => {
       <HeaderTitle>Marcus Cuttz</HeaderTitle>
       <HeaderTitleText>Best haircuts in the 209</HeaderTitleText>
       <ButtonsContainer>
-        <StyledButton>Make Appointment</StyledButton>
-        <StyledButton2>Contact Me</StyledButton2>
+        <CustomButton
+          color="black"
+          borderColor="white"
+          backgroundColor="#eab86b"
+        >
+          Make Appointment
+        </CustomButton>
+        <CustomButton
+          color="#eab86b"
+          borderColor="black"
+          backgroundColor="black"
+        >
+          Contact Me
+        </CustomButton>
       </ButtonsContainer>
     </HeaderContainer>
   );

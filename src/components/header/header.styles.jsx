@@ -4,7 +4,8 @@ import {ReactComponent as ReactLogo} from "../../assets/crown.svg";
 export const HeaderContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 5vh 20vw;
+  padding: 10vh 0;
+  height: 60vh;
   justify-content: center;
   align-items: center;
   background-color: #eab86b;
@@ -28,22 +29,4 @@ export const ButtonsContainer = styled.div`
   display: flex;
   gap: 30px;
   padding: 8vh 0 0;
-`
-
-export const StyledButton = styled.button`
-  padding: 1.5vh 2vw;
-  color: black;
-  font-size: 16px;
-  border: 1.5px solid white;
-  background-color: #eab86b;
-  cursor: pointer;
-`
-
-export const StyledButton2 = styled.button`
-  padding: 1.5vh 2vw;
-  color: #eab86b;
-  font-size: 16px;
-  border: 1.5px solid black;
-  background-color: black;
-  cursor: pointer;
 `
