@@ -1,15 +1,14 @@
 import React from "react";
-import GalleryPreview from "../gallery-preview/gallery-preview.component";
+import { Link } from "react-router-dom";
 
 import {
   HomePageContentContainer,
   HomePageTitle,
   CustomButtonContainer,
-} from "./homepage-content.styles";
+} from "./home-page-content.styles";
 
 import CustomButton from "../custom-button/custom-button.component";
-
-import { Link } from "react-router-dom";
+import GalleryPreview from "../gallery-preview/gallery-preview.component";
 
 const HomePageContent = () => {
   return (
@@ -23,7 +22,7 @@ const HomePageContent = () => {
             color="#eab86b"
             borderColor="#eab86b"
           >
-            View Gallery{" "}
+            View Gallery
           </CustomButton>
         </Link>
       </CustomButtonContainer>

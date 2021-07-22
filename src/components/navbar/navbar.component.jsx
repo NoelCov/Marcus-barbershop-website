@@ -5,20 +5,30 @@ import {
   NavBarTitle,
   NavBarLinksContainer,
   NavBarLink,
+  Separator,
 } from "./navbar.styles";
 
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <NavBarContainer>
-      <NavBarTitle>Marcus' BarberShop</NavBarTitle>
-      <NavBarLinksContainer>
-        <NavBarLink><Link to="/">Home</Link></NavBarLink>
-        <NavBarLink><Link to="/gallery">Gallery</Link></NavBarLink>
-        <NavBarLink>Contact Me</NavBarLink>
-      </NavBarLinksContainer>
-    </NavBarContainer>
+    <>
+      <NavBarContainer>
+        <NavBarTitle>Marcus' BarberShop</NavBarTitle>
+        <NavBarLinksContainer>
+          <NavBarLink>
+            <Link to="/">Home</Link>
+          </NavBarLink>
+          <NavBarLink>
+            <Link to="/gallery">Gallery</Link>
+          </NavBarLink>
+          <NavBarLink>
+            <Link to="/contact">About Me</Link>
+          </NavBarLink>
+        </NavBarLinksContainer>
+      </NavBarContainer>
+      <Separator />
+    </>
   );
 };
 

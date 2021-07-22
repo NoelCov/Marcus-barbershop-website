@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import {
   HeaderContainer,
@@ -17,20 +18,25 @@ const Header = () => {
       <HeaderTitle>Marcus Cuttz</HeaderTitle>
       <HeaderTitleText>Best haircuts in the 209</HeaderTitleText>
       <ButtonsContainer>
-        <CustomButton
-          color="black"
-          borderColor="white"
-          backgroundColor="#eab86b"
-        >
-          Make Appointment
-        </CustomButton>
-        <CustomButton
-          color="#eab86b"
-          borderColor="black"
-          backgroundColor="black"
-        >
-          Contact Me
-        </CustomButton>
+        <a href="mailto:testemail123@gmail.com">
+          <CustomButton
+            color="black"
+            borderColor="white"
+            backgroundColor="#eab86b"
+          >
+            Make Appointment
+          </CustomButton>
+        </a>
+
+        <Link to="/contact">
+          <CustomButton
+            color="#eab86b"
+            borderColor="black"
+            backgroundColor="black"
+          >
+            About Me
+          </CustomButton>
+        </Link>
       </ButtonsContainer>
     </HeaderContainer>
   );

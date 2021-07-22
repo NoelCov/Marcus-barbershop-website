@@ -33,3 +33,9 @@ export const NavBarLink = styled.li`
     color: white;
   }
 `
+
+export const Separator = styled.hr`
+  height: 1px;
+  margin: 0;
+  background-color: gold;
+`;
