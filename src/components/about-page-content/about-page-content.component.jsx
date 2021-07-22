@@ -3,15 +3,15 @@ import React from "react";
 import marcusImage from "../../assets/marcus-profile-pic.jpg";
 
 import {
-  ContactPageContentContainer,
+  AboutPageContentContainer,
   AboutMeContainer,
   ImageContainer,
   TextContainer,
-} from "./contact-page-content.styles";
+} from "./about-page-content.styles";
 
-const ContactPageContent = () => {
+const AboutPageContent = () => {
   return (
-    <ContactPageContentContainer>
+    <AboutPageContentContainer>
       <AboutMeContainer>
         <ImageContainer src={marcusImage} />
         <TextContainer>
@@ -21,8 +21,8 @@ const ContactPageContent = () => {
           my barbershop, you will not regret it.
         </TextContainer>
       </AboutMeContainer>
-    </ContactPageContentContainer>
+    </AboutPageContentContainer>
   );
 };
 
-export default ContactPageContent;
+export default AboutPageContent;

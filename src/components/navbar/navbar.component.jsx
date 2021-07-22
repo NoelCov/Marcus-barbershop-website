@@ -23,7 +23,7 @@ const NavBar = () => {
             <Link to="/gallery">Gallery</Link>
           </NavBarLink>
           <NavBarLink>
-            <Link to="/contact">About Me</Link>
+            <Link to="/about">About Me</Link>
           </NavBarLink>
         </NavBarLinksContainer>
       </NavBarContainer>

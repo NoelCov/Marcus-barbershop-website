@@ -5,7 +5,7 @@ import Footer from "./components/footer/footer.component";
 
 import HomePage from "./pages/home-page/home-page.component";
 import GalleryPage from "./pages/gallery-page/gallery-page.component";
-import ContactPage from "./pages/contact-page/contact-page.component";
+import AboutPage from "./pages/about-page/about-page.component";
 
 import { Switch, Route } from "react-router-dom";
 
@@ -20,7 +20,7 @@ function App() {
         <Route exact path="/gallery" component={GalleryPage} />
       </Switch>
       <Switch>
-        <Route exact path="/contact" component={ContactPage} />
+        <Route exact path="/about" component={AboutPage} />
       </Switch>
       <Footer />
     </div>

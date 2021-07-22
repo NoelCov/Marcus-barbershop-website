@@ -28,7 +28,7 @@ const Header = () => {
           </CustomButton>
         </a>
 
-        <Link to="/contact">
+        <Link to="/about">
           <CustomButton
             color="#eab86b"
             borderColor="black"

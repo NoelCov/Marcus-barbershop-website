@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-export const ContactPageContentContainer = styled.div`
-  min-height: 95vh;
+export const AboutPageContentContainer = styled.div`
+  min-height: 85vh;
   background-color: #12131c;
   display: flex;
   align-items: center;
