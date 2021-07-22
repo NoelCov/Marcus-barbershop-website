@@ -7,13 +7,15 @@ import {
   NavBarLink,
 } from "./navbar.styles";
 
+import { Link } from "react-router-dom";
+
 const NavBar = () => {
   return (
     <NavBarContainer>
       <NavBarTitle>Marcus' BarberShop</NavBarTitle>
       <NavBarLinksContainer>
-        <NavBarLink>Home</NavBarLink>
-        <NavBarLink>Gallery</NavBarLink>
+        <NavBarLink><Link to="/">Home</Link></NavBarLink>
+        <NavBarLink><Link to="/gallery">Gallery</Link></NavBarLink>
         <NavBarLink>Contact Me</NavBarLink>
       </NavBarLinksContainer>
     </NavBarContainer>

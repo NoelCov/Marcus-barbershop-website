@@ -1,13 +1,16 @@
-import React from 'react'
+import React from "react";
 
-import { GalleryPageContentContainer } from "./gallery-page-content.styles";
+import Gallery from "../gallery/gallery.component";
+
+import { GalleryPageContentContainer, Separator } from "./gallery-page-content.styles";
 
 const GalleryPageContent = () => {
   return (
     <GalleryPageContentContainer>
-      Hello
+      <Separator />
+      <Gallery />
     </GalleryPageContentContainer>
-  )
-}
+  );
+};
 
 export default GalleryPageContent;
