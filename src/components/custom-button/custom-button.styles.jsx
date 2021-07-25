@@ -8,4 +8,12 @@ export const StyledButton = styled.button`
   background-color: ${(props) => props.backgroundColor};
   cursor: pointer;
   width: auto;
+
+  @media screen and (max-width: 850px) {
+    padding: 1.2vh 3vw;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 14px
+  }
 `;

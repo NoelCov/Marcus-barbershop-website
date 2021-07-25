@@ -6,10 +6,19 @@ export const FooterContainer = styled.footer`
   align-items: center;
   height: 6vh;
   padding: 0 2.5vw;
+  max-width: 100vw;
 `;
 
 export const FooterTitle = styled.p`
   font-size: 18px;
+
+  @media screen and (max-width: 850px) {
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 14px;
+  }
 `;
 
 export const FooterWebsiteLink = styled.a`
@@ -17,6 +26,14 @@ export const FooterWebsiteLink = styled.a`
 
   &:hover {
     color: gray;
+  }
+
+  @media screen and (max-width: 850px) {
+    font-size: 16px;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 14px;
   }
 `;
 
@@ -37,5 +54,13 @@ export const FooterLink = styled.a`
 
   &:hover {
     color: white;
+  }
+
+  @media screen and (max-width: 850px) {
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 16px;
   }
 `;

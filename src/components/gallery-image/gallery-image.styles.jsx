@@ -12,4 +12,9 @@ export const ImageContainer = styled.div`
   align-items: center;
   justify-content: center;
   padding: 5px;
+
+  @media screen and (max-width: 850px) {
+    max-width: 300px;
+    height: 320px;
+  }
 `;
